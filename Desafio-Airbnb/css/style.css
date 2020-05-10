@@ -1,0 +1,113 @@
+/* font-family: 'Satisfy', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Parisienne', cursive; */
+
+.corFundo{    
+    background-color: rgb(247, 177, 177);
+}
+
+.bgcContainer{
+    background-color: rgb(250, 232, 232);
+}
+
+.bgcTopo{
+    background-color: rgb(241, 52, 52);
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+
+    color : whitesmoke;
+    border-radius: 5px;
+
+}
+
+.bgcRodape{
+    background-color: rgb(241, 52, 52);   
+    padding-top:10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color : whitesmoke;
+    text-align: center;
+    border-radius: 5px;     
+}
+
+#titulo-principal{
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+}
+
+#tituloLogo{
+    font-family: 'Modak', cursive;
+    color:rgba(230, 40, 40, 0.671);
+}
+
+.menu{
+    width: 100%;
+}
+
+.pesquisa{
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    border-bottom: 1px;
+    padding-bottom: 1px;
+}
+.cotacao{
+    font-family: 'Satisfy', cursive; 
+}
+
+.form-pesquisa{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: solid rgb(163, 128, 128);
+    border-width: 1px;
+    align-items: center;
+}
+
+#corpo{
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.imagem-imovel{
+    padding-top: 5px;
+    border-radius: 20px 20px 0px 0px;
+    max-width: 100%;
+    height:200px;
+    padding-right: 5px;
+    padding-left: 5px;
+    /* float: left;         */
+}
+
+.textoElemento{
+    font-family: 'Satisfy', cursive;
+    text-transform: initial;
+}
+
+.cartao{
+    /* height: 520px;  */
+    margin-left: 3px;
+    margin-bottom: 5px;    
+    /* padding-left: 10px; */
+    width:370px;
+    height: 350px;
+} 
+
+.cartao :hover{
+    box-shadow : red 20px 20px 20px;
+}
+
+.botao{
+    width:100%;
+    position : relative;      
+}
+
+.comboClass{
+    margin-right: 5px;
+}
+
+
+.cotacao{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Airbnb</title>
+    <link rel="icon" href="img/icon-airbnb.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Sacramento&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="corFundo">
+    <div class="container">
+       
+        <div class="container bgcContainer"> 
+            <div class="row">
+                <div class="menu">
+                    <div class="bgcTopo">
+                        <div class="row">
+                            <div class="col-md-12" class="cotacao">
+                                <label class="cotacao">Cotação do dólar USD <span class="badge badge-light"
+                                        id="cotacaoDolar">####</span></label>
+                            </div>
+                        </div>
+                        <div id="formPesquisa">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a class="navbar-brand" href="index.html" id="tituloLogo">
+                                        <img src="img/icon-airbnb.png" class="d-inline-block align-top"
+                                            alt="casa-logo_60x60.png">
+                                    </a>
+                                </div>
+                                <div class="col-md-8">
+                                    <form class="form-inline" id="form-pesquisa">
+                                        <label>Selecione o tipo</label>
+                                        <select class="form-control comboClass textoElemento" 
+                                                id="selectTipoPropriedade">
+                                            <option></option>
+                                        </select>
+                                        <button class="btn btn btn-light my-2 my-sm-0 pesquisa" id="btnFiltro"
+                                            type="submit" onclick="filtrar(event)">Filtrar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h1 id="titulo-principal">Veja nossas opções</h1>
+                </div>
+            </div>
+
+            <div class="row row-cols-3" id="colunasCards"></div> 
+        </div>
+          
+        <div class="container bgcRodape">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Desenvolvido por <span>Ronald</span> para fins educacionais.<br>
+                     Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://github.com/ronaldcorradi/"><img src="img/github.png" width="50px" height="50px"></a> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Scripts do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!--Scripts-->
+    <script src="js/script.js"></script>
+    <script src="js/script-cotacao.js"></script>
+    <script src="js/script-bd.js"></script>    
+</body>
+
+</html>
